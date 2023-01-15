@@ -1,0 +1,584 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* -----------------
+    font input
+-------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Work+Sans:wght@300;400;500;600;700;800&display=swap');
+
+
+/* -------------------
+    Header Section
+--------------------*/
+
+.header-section{
+    background-color: rgba(255, 144, 14, 0.1);
+    padding: 45px 0;
+}
+
+.header-containar{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+/* ---------------------
+    menu style
+---------------------- */
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-left h3{
+    font-family: 'Work Sans';
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.menu-right ul{
+    display: flex;
+    gap: 20px;
+}
+
+.menu-right ul li{
+    list-style: none;
+}
+
+.menu-right ul li a{
+    text-decoration: none;
+    font-family: 'Work Sans';
+    font-size: 18px;
+    font-weight: 500;
+    padding: 5px 10px;
+    border-radius: 5px;
+
+}
+
+.menu-right ul li a:hover{
+    color: #fff4e6;
+    background-color: #551a8b;
+}
+/* -------------------
+    banner
+--------------------- */
+.banner-cotainar{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.banner-text{
+    width: 862px;
+    margin-top: 100px;
+    text-align: center;
+
+}
+
+.banner-title{
+    font-size: 64px;
+    font-weight: 700;
+    font-family: 'Work Sans';
+    color: #131313;
+    margin-bottom: 20px;
+}
+.banner-description{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Work Sans';
+    color: #727272;
+}
+.primary-btn{
+    padding: 20px 25px;
+    background-color: #FF900E;
+    color: #ffffff;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 600;
+    border: 1px solid #FF900E;
+    margin: 20px 0;
+}
+
+.primary-btn:hover{
+    background-color: #ff8f0ea3;
+    color: #fff;
+    
+}
+
+.banner-img img{
+    margin-top: 18px;
+
+}
+/* ---------------
+    main
+---------------- */
+.main-section{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+/* ---------------------
+    team section style
+---------------------*/
+
+.team-section{
+    display: flex;
+    align-items: center;
+    padding: 56px;
+}
+
+.team-membar-images{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 15px;
+}
+
+.team-text{
+    width: 537px;
+    margin-left: 73px;
+    padding-right: 70px;
+}
+.team-headin{
+    font-size: 45px;
+    font-family: 'Work Sans';
+    font-weight: 700;
+    margin-bottom: 32px;
+}
+
+.team-heading-span-1{
+    color: #727272;
+}
+.team-heading-span-2{
+    color: #FF900E;
+}
+.team-description{
+    font-family: 'Work Sans';
+    font-size: 16px;
+    color: #727272;
+    margin-bottom: 32px;
+}
+
+/* --------------------
+    featurs section style
+--------------------------- */
+.features-container{
+    display: flex;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.featur-title{
+    position: relative;
+}
+.features-heading{
+    font-family: 'Work Sans';
+    font-weight: 700;
+    font-size: 45px;
+    width: 468px;
+    padding-left: 21px;
+    border-left: 4px solid #FF900E;
+    margin-bottom: 24px;
+}
+
+.featur-title p {
+    font-family: 'Work Sans';
+    color: #727272;
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.featur-item{
+    padding: 30px 33px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 54px;
+}
+
+.featur-item h4{
+    font-size: 20px;
+    font-family: 'Work Sans';
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.featur-item p{
+    color: #727272;
+    font-size: 16px;
+    font-family: 'Work Sans';
+    font-weight: 400;
+}
+.architect-img{
+    position: relative;
+}
+.architect-img img {
+    width: 708px;
+    height: 982px;
+    margin-left: 82px;
+    
+}
+.architect-experience{
+    position: absolute;
+    top: 856px;
+    left: -19px;
+    background-color: #FF900E;
+    width: 342px;
+    height: 200px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+.architect-experience-heading{
+    font-size: 65px;
+    font-weight: 700;
+    font-family: 'Work Sans';
+    color: #ffffff;
+}
+.architect-experience p{
+    font-size: 20px;
+    font-family: 'Work Sank';
+    color: #ffffff;
+}
+
+/* --------------------------
+    achibment section style
+-----------------------------*/
+
+.achivement-section{
+    padding: 92px 0;
+}
+
+.achivement-title{
+    font-family: 'Work Sans';
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    margin-bottom: 24px;
+}
+
+.achivement-description{
+    font-family: 'Work Sans';
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin-bottom: 100px;
+    width: 500px;
+}
+.achivement-items{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 32px;
+}
+
+.achivement-item{
+    border: 1px solid #FF900E;
+    border-radius: 5px;
+}
+
+.achivement-item:hover{
+    background-color: #FF900E;
+    transform: scale(1.3);
+    transition:transform .2s;
+    overflow: hidden;
+}
+
+.achivement-info{
+    text-align: center;
+    padding: 45px 35px;
+}
+
+.achivement-info img{
+    margin-bottom: 10px;
+}
+
+.number{
+    font-family: 'Work Sans';
+    font-weight: 600;
+    font-size: 45px;
+    color: #424242;
+    margin-bottom: 5px;
+}
+
+.item-description{
+    font-family: 'Work Sans';
+    font-weight: 600;
+    font-size: 20px;
+    color: #727272;
+}
+
+/* ---------------------
+    sponser section
+----------------------- */
+
+.our-sponser-section{
+    padding: 90px 0;
+}
+.sponser-text{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.sponser-text h2{
+    margin-bottom: 24px;
+    font-family: 'Work Sans';
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+
+.sponser-text p{
+    font-family: 'Work Sans';
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    width: 542px;
+    margin: 0 auto;
+}
+
+.sponser-items{
+    display: flex;
+    justify-content: space-between;
+}
+
+.sponser-items img{
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+
+/* ---------------------
+    footer-section
+----------------------------*/
+.footer-section{
+    padding: 58px 0;
+}
+.footer-text{
+    background-color:rgba(255, 144, 14, 0.1);
+    text-align: center;
+    
+}
+
+.footer-text p{
+    padding: 38px 0;
+    font-family: 'Work Sans';
+    font-size: 20px;
+    font-weight: 400;
+}
+
+/*----------------------
+    contact section
+------------------------*/
+
+.contact-section{
+  background: #fff;
+  border-radius: 6px;
+  padding: 20px 60px 30px 40px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.contact-title{
+    font-size: 45px;
+    font-family: 'Work Sans';
+    text-align: center;
+
+}
+
+.contact-description{
+    font-size: 20px;
+    font-family: 'Work Sans';
+    text-align: center;
+    width: 542px;
+    margin: auto;
+}
+.contact-container {
+    display: flex;
+    justify-content: space-around;
+}
+input{
+    width: 100%;
+}
+textarea{
+    width: 100%;
+}
+
+.company-location{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+}
+
+.contact-form input[type="submit"]{
+    color: #fff;
+    font-size: 18px;
+    outline: none;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 6px;
+    background: #FF900E;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+
+/* hide */
+/* ------------------------------
+    Responsibe style
+-------------------------*/
+
+@media only screen and (max-width:576px) {
+    
+    /* header section */
+    .menu-left h3{
+        font-size: 36px;
+    }
+    .banner-description{
+        max-width: 40%;
+        min-width: 30%;
+        margin: 0 auto;
+    }
+    .menu{
+        flex-direction: column;
+        align-items: center;
+    }
+    .menu-right ul{
+        flex-direction: column;
+    }
+
+    .banner-text{
+        margin-top: 26px;
+
+    }
+
+    .banner-title{
+        font-size: 35px;
+    }
+    .banner-img img{
+        width: 100%;
+    }
+
+    .team-section{
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+    }
+
+    .team-text {
+        margin: 0 auto;
+    }
+
+    .team-headin{
+        font-size: 35px;
+        width: 300px;
+        margin-left: 10px;
+        
+    }
+
+    .team-description{
+        width: 300px;
+        margin-left: 10px;
+    }
+
+    .primary-btn{
+        margin-left: 10px;
+    }
+    .team-membar-images{
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .features-container{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .features-heading{
+        font-size: 35px;
+        width: 100%;
+        padding-left: 0 5px;
+        margin-left: 5px;
+    }
+
+    .featur-item{
+        margin-right: 0;
+    }
+
+    .architect-img img {
+        width: 100%;
+        height: 100%;
+        margin-left:0;
+    }
+    .architect-experience-heading{
+        font-size: 30px;
+    }
+
+    .architect-experience{
+        width: 100%;
+        height: 100px;
+        top: 525px;
+        left: auto
+    }
+
+    .achivement-section{
+        margin-top: 10px;
+    }
+
+    .achivement-items{
+        flex-direction: column;
+        gap: 20px;
+        margin-left:0;
+        width: 100%;
+    }
+
+    .achivement-item:hover{
+        transform: scale(1.1);
+    }
+
+    .achivement-title{
+        font-size: 35px;
+    }
+
+    .sponser-text h2{
+        font-size: 35px;
+    }
+
+    .sponser-text p{
+        width: 100%;
+    }
+
+    .sponser-items{
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .contact-section{
+        padding: 0;
+    }
+
+    .contact-title{
+        font-size: 35px;
+    }
+
+    .contact-description{
+        width: 100%;
+        font-size: 16px;
+        margin: 26px 0px;
+    }
+
+    .contact-container{
+        flex-direction: column;
+    }
+
+    .footer-text p{
+        padding: 10px 0;
+    }
+
+}
