@@ -384,19 +384,23 @@
     font-size: 45px;
     font-family: 'Work Sans';
     text-align: center;
+    margin-bottom: 10px;
+    margin-top: 20px;
 
 }
 
 .contact-description{
-    font-size: 20px;
+    font-size: 16px;
     font-family: 'Work Sans';
     text-align: center;
     width: 542px;
-    margin: auto;
+    margin: 10px auto;
 }
 .contact-container {
     display: flex;
     justify-content: space-around;
+    font-size: 20px;
+    color: #727272;
 }
 input{
     width: 100%;
@@ -408,22 +412,35 @@ textarea{
 .company-location{
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     text-align: center;
-    gap: 20px;
+    gap: 70px;
+}
+
+.company-location i{
+    color: #FF900E;
+}
+
+
+.contact-form input, textarea{
+    width: 97%;
+    font-size: 16px;
+    background: #F0F1F8;
+    border-radius: 6px;
+    padding: 10px 15px;
+    resize: none;
+    margin: 10px 0;
 }
 
 .contact-form input[type="submit"]{
     color: #fff;
     font-size: 18px;
-    outline: none;
-    border: none;
     padding: 8px 16px;
     border-radius: 6px;
     background: #FF900E;
-    cursor: pointer;
-    transition: all 0.3s ease;
+    transition:  0.3s;
+    width: 100%;
+    border: 1px solid #FF900E;
   }
 
 /* hide */
