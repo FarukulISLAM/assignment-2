@@ -479,6 +479,8 @@ textarea{
         width: 100%;
     }
 
+    /* teame section */
+    
     .team-section{
         flex-direction: column;
         align-items: center;
@@ -509,6 +511,8 @@ textarea{
         display: flex;
         flex-direction: column;
     }
+
+    /* features-section */
 
     .features-container{
         flex-direction: column;
@@ -543,8 +547,12 @@ textarea{
         left: auto
     }
 
+    /* achivment section */
+
     .achivement-section{
         margin-top: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
     }
 
     .achivement-items{
@@ -562,6 +570,8 @@ textarea{
         font-size: 35px;
     }
 
+    /* sponser section */
+
     .sponser-text h2{
         font-size: 35px;
     }
@@ -576,8 +586,17 @@ textarea{
         gap: 20px;
     }
 
+    /* contact section */
+
     .contact-section{
         padding: 0;
+        margin: 0 5px;
+    }
+
+    .contact-container{
+        flex-direction: column;
+        margin-left: 5px;
+        margin-right: 5px
     }
 
     .contact-title{
@@ -590,9 +609,7 @@ textarea{
         margin: 26px 0px;
     }
 
-    .contact-container{
-        flex-direction: column;
-    }
+    /* footer */
 
     .footer-text p{
         padding: 10px 0;
